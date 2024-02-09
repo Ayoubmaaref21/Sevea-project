@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  width: 100%;
+  padding-bottom: 1rem;
+  position: relative;
+  z-index: 6;
+  background-color: white;
+  margin-top: -1rem;
+}
+.div1 {
+  display: flex;
+  margin-left: 30rem;
+  align-items: center;
+}
+
+.logo {
+  width: 25%;
+  height: 15%;
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+.logo:hover {
+  transform: scale(1.2);
+}
+.div1 img {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.login {
+  display: flex;
+  gap: 2rem;
+}
+.div1 p {
+  color: green;
+  font-size: 1.5rem;
+}
+.div1 p:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.bar {
+  width: 100%;
+  margin-top: -4rem;
+  position: relative;
+  z-index: 7;
+  background-color: transparent;
+  height: 6rem;
+}
+.sec1 img {
+  width: 100%;
+  margin-top: -31rem;
+  position: relative;
+  z-index: 5;
+}
+
+@media (max-width: 600px) {
+  .div1 {
+    margin-left: 1rem;
+
+    margin-top: -1rem;
+  }
+
+  .div1 img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  .logo {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .login {
+    gap: 1rem;
+  }
+  .div1 p {
+    font-size: 1rem;
+  }
+  .bar {
+    margin-top: -1rem;
+  }
+}
